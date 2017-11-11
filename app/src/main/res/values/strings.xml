@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kudus Food</string>
+    <string name="action_settings">Settings</string>
+    //description activity image soto_kudus
+    <string name="str_img1_soto_kudus">Image1</string>
+    <string name="str_img2_soto_kudus">Image2</string>
+    <string name="str_img3_soto_kudus">Image3</string>
+    <string name="str_img4_soto_kudus">Image4</string>
+    <string name="str_img5_soto_kudus">Image5</string>
+
+    <string name="str_btn_start">Start</string>
+    <string name="str_btn_stop">Stop</string>
+</resources>

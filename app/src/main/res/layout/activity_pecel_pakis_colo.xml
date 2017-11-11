@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.kudusfood.PecelPakisColo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ViewFlipper
+            android:id="@+id/flipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:flipInterval="3000"
+            android:inAnimation="@anim/side_in_right"
+            android:outAnimation="@anim/side_out_left"
+            android:layout_centerInParent="true" >
+            <ImageView
+                android:src="@drawable/pecel_pakis_colo1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/str_img1_soto_kudus"
+                android:layout_gravity="center_horizontal" />
+            <ImageView
+                android:src="@drawable/pecel_pakis_colo2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/str_img2_soto_kudus"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:src="@drawable/pecel_pakis_colo3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/str_img3_soto_kudus"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:src="@drawable/pecel_pakis_colo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str_img4_soto_kudus"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:src="@drawable/pecel_pakis_colo5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/str_img5_soto_kudus"
+                android:layout_gravity="center_horizontal" />
+        </ViewFlipper>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="normal"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</ScrollView>
